@@ -12,9 +12,11 @@
     #grid
     %header#header
       %hgroup
-        %h1
-          %a{:href => "/"}= @heading
+        %h1= @heading
         %h2= @subtitle
     %section#main
+      %p
+        %a{:href => "https://github.com/adamstac/grid-coordinates"} Fork me on GitHub &rarr;
     %footer#footer
       %p Copyright &copy; 2010 - 2011
+    = haml :analytics, :layout => false
