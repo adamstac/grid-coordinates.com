@@ -20,8 +20,8 @@ namespace :heroku do
       Nesta::Config.author_settings.map do |author_var|
         value = Nesta::Config.author[author_var]
         if value
-        value && settings["NESTA_AUTHOR__#{author_var.upcase}"] = value
-      end
+          value && settings["NESTA_AUTHOR__#{author_var.upcase}"] = value
+        end
     end
     params = settings.map { |k, v| %Q{#{k}="#{v}"} }.join(" ")
     system("heroku config:add #{params}")

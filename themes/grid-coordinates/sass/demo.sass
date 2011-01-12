@@ -6,13 +6,17 @@
 @import compass/layout
 @import compass/css3
 
+.font-helvetica
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif
+
 // Configure grid coordinates
 $grid-columns: 24
 $grid-width: 30px
 $grid-gutter-width: 10px
-$overflow-allowed: true
 
-@import grid-coordinates
+// @import grid-coordinates
+// Route to local gem mixin file for development use only
+@import ../../../../extension/stylesheets/grid-coordinates
 
 +grid-coordinates
 
@@ -50,6 +54,7 @@ body
   background: #fff
   
 #branding, #navigation, #page-body, #page-sidebar, #footer-content
+  +box-shadow(rgba(#000,.5),0,0,5px)
   +transition-property(background)
   +transition-duration(.5s)
   +border-radius(2px)
