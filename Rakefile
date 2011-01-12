@@ -22,6 +22,7 @@ namespace :heroku do
         if value
           value && settings["NESTA_AUTHOR__#{author_var.upcase}"] = value
         end
+      end
     end
     params = settings.map { |k, v| %Q{#{k}="#{v}"} }.join(" ")
     system("heroku config:add #{params}")
