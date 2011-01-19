@@ -1,0 +1,41 @@
+@import base
+@import style
+
+// Configure grid coordinates
+$grid-columns: 24
+$grid-width: 30px
+$grid-gutter-width: 10px
+
+// @import grid-coordinates
+// Route to local gem mixin file for development use only
+@import ../../../../../extension/stylesheets/grid-coordinates
+
++demo-style
+
+#header
+  +grid-container
+  margin-top: $grid-gutter-width
+
+#branding
+  +grid(8)
+
+#navigation
+  +grid(16)
+
+#page
+  +grid-container
+
+#page-body
+  +grid(16)
+
+#page-sidebar
+  +grid(8)
+
+#footer
+  +grid-container
+
+#footer-content
+  +grid-full
+
+#header, #page
+  margin-bottom: $grid-gutter-width

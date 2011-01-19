@@ -1,64 +1,13 @@
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-}
-
-body {
-  line-height: 1;
-  color: black;
-  background: white;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  vertical-align: middle;
-}
-
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-q, blockquote {
-  quotes: "" "";
-}
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-}
-
-a img {
-  border: none;
-}
-
+@import url(reset.css);
 .font-helvetica, body {
   font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
 }
 
-.grid-pie-clearfix, .grid-container, .nested-grid-container, .grid-block, .grid-full, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 {
+.grid-pie-clearfix, .grid-container, #header, #page, #footer, .nested-grid-container, .grid-block, .grid-full, #footer-content, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, #branding, #page-sidebar, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, #navigation, #page-body, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 {
   *zoom: 1;
 }
-.grid-pie-clearfix:after, .grid-container:after, .nested-grid-container:after, .grid-block:after, .grid-full:after, .grid-1:after, .grid-2:after, .grid-3:after, .grid-4:after, .grid-5:after, .grid-6:after, .grid-7:after, .grid-8:after, .grid-9:after, .grid-10:after, .grid-11:after, .grid-12:after, .grid-13:after, .grid-14:after, .grid-15:after, .grid-16:after, .grid-17:after, .grid-18:after, .grid-19:after, .grid-20:after, .grid-21:after, .grid-22:after, .grid-23:after, .grid-24:after {
+.grid-pie-clearfix:after, .grid-container:after, #header:after, #page:after, #footer:after, .nested-grid-container:after, .grid-block:after, .grid-full:after, #footer-content:after, .grid-1:after, .grid-2:after, .grid-3:after, .grid-4:after, .grid-5:after, .grid-6:after, .grid-7:after, .grid-8:after, #branding:after, #page-sidebar:after, .grid-9:after, .grid-10:after, .grid-11:after, .grid-12:after, .grid-13:after, .grid-14:after, .grid-15:after, .grid-16:after, #navigation:after, #page-body:after, .grid-17:after, .grid-18:after, .grid-19:after, .grid-20:after, .grid-21:after, .grid-22:after, .grid-23:after, .grid-24:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -67,7 +16,7 @@ a img {
   visibility: hidden;
 }
 
-.grid-container {
+.grid-container, #header, #page, #footer {
   margin: 0 auto;
   width: 960px;
 }
@@ -79,14 +28,14 @@ a img {
   width: auto;
 }
 
-.grid-block, .grid-full, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 {
+.grid-block, .grid-full, #footer-content, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, #branding, #page-sidebar, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, #navigation, #page-body, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 {
   display: inline;
   float: left;
   position: relative;
   margin: 0 5px;
 }
 
-.grid-full {
+.grid-full, #footer-content {
   width: 950px;
 }
 
@@ -118,7 +67,7 @@ a img {
   width: 270px;
 }
 
-.grid-8 {
+.grid-8, #branding, #page-sidebar {
   width: 310px;
 }
 
@@ -150,7 +99,7 @@ a img {
   width: 590px;
 }
 
-.grid-16 {
+.grid-16, #navigation, #page-body {
   width: 630px;
 }
 
@@ -625,6 +574,14 @@ body {
 
 #footer-content {
   line-height: 50px;
+}
+
+#header, #page {
+  margin-bottom: 10px;
+}
+
+#header {
+  margin-top: 10px;
 }
 
 #header, #page {
