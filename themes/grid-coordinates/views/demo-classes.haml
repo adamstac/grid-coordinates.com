@@ -1,0 +1,27 @@
+!!!
+%html{html_attrs}
+  %head
+    %meta{ "http-equiv" => "content-type", "content" => "text/html; charset=utf-8" }
+    - if @description
+      %meta{ "name" => "description", "content" => @description }
+    - if @keywords
+      %meta{ "name" => "keywords", "content" => @keywords }
+    %title= @title
+    / %link{ :href => "/grid-coordinates/css/demo-classes-overflow-true.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "/grid-coordinates/css/demo-classes-overflow-false.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"}
+    %script{:src => "/grid-coordinates/javascript/demo.js"}
+  %body{ :class => @body_class }
+    #header.grid-container
+      #branding.grid-8
+        %p Branding
+      #navigation.grid-16
+        %p Navigation
+    #page.grid-container
+      #page-body.grid-16
+        %p Body
+      #page-sidebar.grid-8
+        %p Sidebar
+    #footer.grid-container
+      #footer-content.grid-full
+        %p Footer

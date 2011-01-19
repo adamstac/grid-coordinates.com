@@ -1,0 +1,34 @@
+// Configure grid coordinates
+$grid-columns: 24
+$grid-width: 30px
+$grid-gutter-width: 10px
+
+// @import grid-coordinates
+// Route to local gem mixin file for development use only
+@import ../../../../extension/stylesheets/grid-coordinates
+
+#grid-container
+  +grid-container
+  
+#nested-grid-container
+  +nested-grid-container
+
+@for $i from 1 through $grid-columns
+  #grid-#{$i}
+    +grid($i)
+
+@for $i from 1 through $grid-columns
+  #grid-prefix-#{$i}
+    +grid-prefix($i)
+
+@for $i from 1 through $grid-columns
+  #grid-suffix-#{$i}
+    +grid-suffix($i)
+
+@for $i from 1 through $grid-columns
+  #grid-push-#{$i}
+    +grid-push($i)
+
+@for $i from 1 through $grid-columns
+  #grid-pull-#{$i}
+    +grid-pull($i)

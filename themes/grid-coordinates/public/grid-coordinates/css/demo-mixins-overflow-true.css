@@ -1,0 +1,261 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: "" "";
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+a img {
+  border: none;
+}
+
+.font-helvetica, body {
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+
+#grid {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  background: url(/grid-coordinates/images/grid-24.png) repeat-y 50% 0;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: -480px;
+  width: 960px;
+}
+
+.toggle-grid {
+  -moz-transition-property: color;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  display: block;
+  background: url(/grid-coordinates/images/toggle-grid.png) no-repeat right 50%;
+  font-size: 12px;
+  line-height: 16px;
+  padding-right: 22px;
+  text-decoration: none;
+}
+.toggle-grid:hover {
+  color: #999999;
+}
+.toggle-grid .hide {
+  display: none;
+}
+
+body {
+  background: white;
+}
+
+#branding, #navigation, #page-body, #page-sidebar, #footer-content {
+  -moz-transition-property: background;
+  -webkit-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.75s;
+  -webkit-transition-duration: 0.75s;
+  -o-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+  background: #e7e7e7;
+  color: #999999;
+  font-size: 13px;
+  text-align: center;
+}
+#branding:hover, #navigation:hover, #page-body:hover, #page-sidebar:hover, #footer-content:hover {
+  background: #dddddd;
+}
+
+#branding, #navigation {
+  line-height: 50px;
+}
+
+#page-body, #page-sidebar {
+  line-height: 600px;
+}
+
+#footer-content {
+  line-height: 50px;
+}
+
+#header {
+  *zoom: 1;
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 10px;
+}
+#header:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#branding {
+  width: 310px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#branding:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#navigation {
+  width: 630px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#navigation:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#page {
+  *zoom: 1;
+  margin: 0 auto;
+  width: 960px;
+}
+#page:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#page-body {
+  width: 630px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#page-body:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#page-sidebar {
+  width: 310px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#page-sidebar:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#footer {
+  *zoom: 1;
+  margin: 0 auto;
+  width: 960px;
+}
+#footer:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#footer-content {
+  width: 950px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#footer-content:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#header, #page {
+  margin-bottom: 10px;
+}

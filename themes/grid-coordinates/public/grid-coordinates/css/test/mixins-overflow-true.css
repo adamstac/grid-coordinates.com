@@ -1,0 +1,821 @@
+#grid-container {
+  *zoom: 1;
+  margin: 0 auto;
+  width: 960px;
+}
+#grid-container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#nested-grid-container {
+  *zoom: 1;
+  display: inline-block;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: auto;
+}
+#nested-grid-container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-1 {
+  width: 30px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-1:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-2 {
+  width: 70px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-2:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-3 {
+  width: 110px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-3:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-4 {
+  width: 150px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-4:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-5 {
+  width: 190px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-5:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-6 {
+  width: 230px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-6:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-7 {
+  width: 270px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-7:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-8 {
+  width: 310px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-8:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-9 {
+  width: 350px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-9:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-10 {
+  width: 390px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-10:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-11 {
+  width: 430px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-11:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-12 {
+  width: 470px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-12:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-13 {
+  width: 510px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-13:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-14 {
+  width: 550px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-14:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-15 {
+  width: 590px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-15:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-16 {
+  width: 630px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-16:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-17 {
+  width: 670px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-17:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-18 {
+  width: 710px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-18:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-19 {
+  width: 750px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-19:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-20 {
+  width: 790px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-20:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-21 {
+  width: 830px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-21:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-22 {
+  width: 870px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-22:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-23 {
+  width: 910px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-23:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-24 {
+  width: 950px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+  *zoom: 1;
+}
+#grid-24:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#grid-prefix-1 {
+  padding-left: 40px;
+}
+
+#grid-prefix-2 {
+  padding-left: 80px;
+}
+
+#grid-prefix-3 {
+  padding-left: 120px;
+}
+
+#grid-prefix-4 {
+  padding-left: 160px;
+}
+
+#grid-prefix-5 {
+  padding-left: 200px;
+}
+
+#grid-prefix-6 {
+  padding-left: 240px;
+}
+
+#grid-prefix-7 {
+  padding-left: 280px;
+}
+
+#grid-prefix-8 {
+  padding-left: 320px;
+}
+
+#grid-prefix-9 {
+  padding-left: 360px;
+}
+
+#grid-prefix-10 {
+  padding-left: 400px;
+}
+
+#grid-prefix-11 {
+  padding-left: 440px;
+}
+
+#grid-prefix-12 {
+  padding-left: 480px;
+}
+
+#grid-prefix-13 {
+  padding-left: 520px;
+}
+
+#grid-prefix-14 {
+  padding-left: 560px;
+}
+
+#grid-prefix-15 {
+  padding-left: 600px;
+}
+
+#grid-prefix-16 {
+  padding-left: 640px;
+}
+
+#grid-prefix-17 {
+  padding-left: 680px;
+}
+
+#grid-prefix-18 {
+  padding-left: 720px;
+}
+
+#grid-prefix-19 {
+  padding-left: 760px;
+}
+
+#grid-prefix-20 {
+  padding-left: 800px;
+}
+
+#grid-prefix-21 {
+  padding-left: 840px;
+}
+
+#grid-prefix-22 {
+  padding-left: 880px;
+}
+
+#grid-prefix-23 {
+  padding-left: 920px;
+}
+
+#grid-prefix-24 {
+  padding-left: 960px;
+}
+
+#grid-suffix-1 {
+  padding-right: 40px;
+}
+
+#grid-suffix-2 {
+  padding-right: 80px;
+}
+
+#grid-suffix-3 {
+  padding-right: 120px;
+}
+
+#grid-suffix-4 {
+  padding-right: 160px;
+}
+
+#grid-suffix-5 {
+  padding-right: 200px;
+}
+
+#grid-suffix-6 {
+  padding-right: 240px;
+}
+
+#grid-suffix-7 {
+  padding-right: 280px;
+}
+
+#grid-suffix-8 {
+  padding-right: 320px;
+}
+
+#grid-suffix-9 {
+  padding-right: 360px;
+}
+
+#grid-suffix-10 {
+  padding-right: 400px;
+}
+
+#grid-suffix-11 {
+  padding-right: 440px;
+}
+
+#grid-suffix-12 {
+  padding-right: 480px;
+}
+
+#grid-suffix-13 {
+  padding-right: 520px;
+}
+
+#grid-suffix-14 {
+  padding-right: 560px;
+}
+
+#grid-suffix-15 {
+  padding-right: 600px;
+}
+
+#grid-suffix-16 {
+  padding-right: 640px;
+}
+
+#grid-suffix-17 {
+  padding-right: 680px;
+}
+
+#grid-suffix-18 {
+  padding-right: 720px;
+}
+
+#grid-suffix-19 {
+  padding-right: 760px;
+}
+
+#grid-suffix-20 {
+  padding-right: 800px;
+}
+
+#grid-suffix-21 {
+  padding-right: 840px;
+}
+
+#grid-suffix-22 {
+  padding-right: 880px;
+}
+
+#grid-suffix-23 {
+  padding-right: 920px;
+}
+
+#grid-suffix-24 {
+  padding-right: 960px;
+}
+
+#grid-push-1 {
+  left: 40px;
+}
+
+#grid-push-2 {
+  left: 80px;
+}
+
+#grid-push-3 {
+  left: 120px;
+}
+
+#grid-push-4 {
+  left: 160px;
+}
+
+#grid-push-5 {
+  left: 200px;
+}
+
+#grid-push-6 {
+  left: 240px;
+}
+
+#grid-push-7 {
+  left: 280px;
+}
+
+#grid-push-8 {
+  left: 320px;
+}
+
+#grid-push-9 {
+  left: 360px;
+}
+
+#grid-push-10 {
+  left: 400px;
+}
+
+#grid-push-11 {
+  left: 440px;
+}
+
+#grid-push-12 {
+  left: 480px;
+}
+
+#grid-push-13 {
+  left: 520px;
+}
+
+#grid-push-14 {
+  left: 560px;
+}
+
+#grid-push-15 {
+  left: 600px;
+}
+
+#grid-push-16 {
+  left: 640px;
+}
+
+#grid-push-17 {
+  left: 680px;
+}
+
+#grid-push-18 {
+  left: 720px;
+}
+
+#grid-push-19 {
+  left: 760px;
+}
+
+#grid-push-20 {
+  left: 800px;
+}
+
+#grid-push-21 {
+  left: 840px;
+}
+
+#grid-push-22 {
+  left: 880px;
+}
+
+#grid-push-23 {
+  left: 920px;
+}
+
+#grid-push-24 {
+  left: 960px;
+}
+
+#grid-pull-1 {
+  left: -20px;
+}
+
+#grid-pull-2 {
+  left: -40px;
+}
+
+#grid-pull-3 {
+  left: -60px;
+}
+
+#grid-pull-4 {
+  left: -80px;
+}
+
+#grid-pull-5 {
+  left: -100px;
+}
+
+#grid-pull-6 {
+  left: -120px;
+}
+
+#grid-pull-7 {
+  left: -140px;
+}
+
+#grid-pull-8 {
+  left: -160px;
+}
+
+#grid-pull-9 {
+  left: -180px;
+}
+
+#grid-pull-10 {
+  left: -200px;
+}
+
+#grid-pull-11 {
+  left: -220px;
+}
+
+#grid-pull-12 {
+  left: -240px;
+}
+
+#grid-pull-13 {
+  left: -260px;
+}
+
+#grid-pull-14 {
+  left: -280px;
+}
+
+#grid-pull-15 {
+  left: -300px;
+}
+
+#grid-pull-16 {
+  left: -320px;
+}
+
+#grid-pull-17 {
+  left: -340px;
+}
+
+#grid-pull-18 {
+  left: -360px;
+}
+
+#grid-pull-19 {
+  left: -380px;
+}
+
+#grid-pull-20 {
+  left: -400px;
+}
+
+#grid-pull-21 {
+  left: -420px;
+}
+
+#grid-pull-22 {
+  left: -440px;
+}
+
+#grid-pull-23 {
+  left: -460px;
+}
+
+#grid-pull-24 {
+  left: -480px;
+}

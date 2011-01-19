@@ -1,0 +1,102 @@
+// Resets
+@import compass/reset
+
+// Compass Stuff
+@import compass/utilities
+@import compass/layout
+@import compass/css3
+
+.font-helvetica
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif
+
+// Configure grid coordinates
+$grid-columns: 24
+$grid-width: 30px
+$grid-gutter-width: 10px
+$overflow: false
+
+// @import grid-coordinates
+// Route to local gem mixin file for development use only
+@import ../../../../extension/stylesheets/grid-coordinates
+
++grid-coordinates
+
+#grid
+  display: none
+  position: fixed
+  top: 0
+  left: 50%
+  background: url(/grid-coordinates/images/grid-24.png) repeat-y 50% 0
+  height: 100%
+  margin: 0 auto
+  margin-left: -480px
+  width: 960px
+
+.toggle-grid
+  +transition-property(color)
+  +transition-duration(.5s)
+  position: absolute
+  top: 10px
+  right: 10px
+  color: #fff
+  display: block
+  background: url(/grid-coordinates/images/toggle-grid.png) no-repeat right 50%
+  font-size: 12px
+  line-height: 16px
+  padding-right: 22px
+  text-decoration: none
+  &:hover
+    color: #999
+  .hide
+    display: none
+
+body
+  @extend .font-helvetica
+  background: #fff
+  
+#branding, #navigation, #page-body, #page-sidebar, #footer-content
+  +transition-property(background)
+  +transition-duration(.75s)
+  background: #e7e7e7
+  color: #999
+  font-size: 13px
+  text-align: center
+  &:hover
+    background: #ddd
+  
+#branding, #navigation
+  line-height: 50px
+  
+#page-body, #page-sidebar
+  line-height: 600px
+
+#footer-content
+  line-height: 50px
+  
+#header, #page
+  margin-bottom: $grid-gutter-width
+
+#header
+  @extend .grid-container
+  margin-top: $grid-gutter-width
+
+#branding
+  @extend .grid-8
+
+#navigation
+  @extend .grid-16
+
+#page
+  @extend .grid-container
+
+#page-body
+  @extend .grid-16
+
+#page-sidebar
+  @extend .grid-8
+
+#footer
+  @extend .grid-container
+
+#footer-content
+  @extend .grid-full
