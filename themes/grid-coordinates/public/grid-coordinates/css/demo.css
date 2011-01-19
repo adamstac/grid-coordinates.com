@@ -923,10 +923,10 @@ a img {
   font-size: 12px;
   line-height: 16px;
   padding-right: 22px;
+  text-decoration: none;
 }
 .toggle-grid:hover {
   color: #999999;
-  text-decoration: none;
 }
 .toggle-grid .hide {
   display: none;
@@ -937,24 +937,14 @@ body {
 }
 
 #branding, #navigation, #page-body, #page-sidebar, #footer-content {
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 0;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 0;
   -moz-transition-property: background;
   -webkit-transition-property: background;
   -o-transition-property: background;
   transition-property: background;
-  -moz-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
+  -moz-transition-duration: 0.75s;
+  -webkit-transition-duration: 0.75s;
+  -o-transition-duration: 0.75s;
+  transition-duration: 0.75s;
   background: #e7e7e7;
   color: #999999;
   font-size: 13px;

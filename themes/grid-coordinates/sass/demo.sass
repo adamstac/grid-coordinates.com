@@ -14,9 +14,9 @@ $grid-columns: 24
 $grid-width: 30px
 $grid-gutter-width: 10px
 
-// @import grid-coordinates
+@import grid-coordinates
 // Route to local gem mixin file for development use only
-@import ../../../../extension/stylesheets/grid-coordinates
+// @import ../../../../extension/stylesheets/grid-coordinates
 
 +grid-coordinates
 
@@ -43,9 +43,9 @@ $grid-gutter-width: 10px
   font-size: 12px
   line-height: 16px
   padding-right: 22px
+  text-decoration: none
   &:hover
     color: #999
-    text-decoration: none
   .hide
     display: none
 
@@ -54,10 +54,8 @@ body
   background: #fff
   
 #branding, #navigation, #page-body, #page-sidebar, #footer-content
-  +box-shadow(rgba(#000,.5),0,0,5px)
   +transition-property(background)
-  +transition-duration(.5s)
-  +border-radius(2px)
+  +transition-duration(.75s)
   background: #e7e7e7
   color: #999
   font-size: 13px

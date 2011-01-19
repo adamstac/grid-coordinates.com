@@ -76,8 +76,8 @@ a:focus, a:active {
 }
 
 .grid-container {
-  margin: 0 auto;
   *zoom: 1;
+  margin: 0 auto;
   width: 960px;
 }
 .grid-container:after {
@@ -90,10 +90,10 @@ a:focus, a:active {
 }
 
 .nested-grid-container {
+  *zoom: 1;
   display: inline-block;
   margin-left: -5px;
   margin-right: -5px;
-  *zoom: 1;
   width: auto;
 }
 .nested-grid-container:after {
@@ -121,6 +121,7 @@ a:focus, a:active {
 }
 
 .grid-1 {
+  position: relative;
   width: 30px;
   display: inline;
   float: left;
@@ -137,6 +138,7 @@ a:focus, a:active {
 }
 
 .grid-2 {
+  position: relative;
   width: 70px;
   display: inline;
   float: left;
@@ -153,6 +155,7 @@ a:focus, a:active {
 }
 
 .grid-3 {
+  position: relative;
   width: 110px;
   display: inline;
   float: left;
@@ -169,6 +172,7 @@ a:focus, a:active {
 }
 
 .grid-4 {
+  position: relative;
   width: 150px;
   display: inline;
   float: left;
@@ -185,6 +189,7 @@ a:focus, a:active {
 }
 
 .grid-5 {
+  position: relative;
   width: 190px;
   display: inline;
   float: left;
@@ -201,6 +206,7 @@ a:focus, a:active {
 }
 
 .grid-6 {
+  position: relative;
   width: 230px;
   display: inline;
   float: left;
@@ -217,6 +223,7 @@ a:focus, a:active {
 }
 
 .grid-7 {
+  position: relative;
   width: 270px;
   display: inline;
   float: left;
@@ -233,6 +240,7 @@ a:focus, a:active {
 }
 
 .grid-8 {
+  position: relative;
   width: 310px;
   display: inline;
   float: left;
@@ -249,6 +257,7 @@ a:focus, a:active {
 }
 
 .grid-9 {
+  position: relative;
   width: 350px;
   display: inline;
   float: left;
@@ -265,6 +274,7 @@ a:focus, a:active {
 }
 
 .grid-10 {
+  position: relative;
   width: 390px;
   display: inline;
   float: left;
@@ -281,6 +291,7 @@ a:focus, a:active {
 }
 
 .grid-11 {
+  position: relative;
   width: 430px;
   display: inline;
   float: left;
@@ -297,6 +308,7 @@ a:focus, a:active {
 }
 
 .grid-12 {
+  position: relative;
   width: 470px;
   display: inline;
   float: left;
@@ -313,6 +325,7 @@ a:focus, a:active {
 }
 
 .grid-13 {
+  position: relative;
   width: 510px;
   display: inline;
   float: left;
@@ -329,6 +342,7 @@ a:focus, a:active {
 }
 
 .grid-14 {
+  position: relative;
   width: 550px;
   display: inline;
   float: left;
@@ -345,6 +359,7 @@ a:focus, a:active {
 }
 
 .grid-15 {
+  position: relative;
   width: 590px;
   display: inline;
   float: left;
@@ -361,6 +376,7 @@ a:focus, a:active {
 }
 
 .grid-16 {
+  position: relative;
   width: 630px;
   display: inline;
   float: left;
@@ -377,6 +393,7 @@ a:focus, a:active {
 }
 
 .grid-17 {
+  position: relative;
   width: 670px;
   display: inline;
   float: left;
@@ -393,6 +410,7 @@ a:focus, a:active {
 }
 
 .grid-18 {
+  position: relative;
   width: 710px;
   display: inline;
   float: left;
@@ -409,6 +427,7 @@ a:focus, a:active {
 }
 
 .grid-19 {
+  position: relative;
   width: 750px;
   display: inline;
   float: left;
@@ -425,6 +444,7 @@ a:focus, a:active {
 }
 
 .grid-20 {
+  position: relative;
   width: 790px;
   display: inline;
   float: left;
@@ -441,6 +461,7 @@ a:focus, a:active {
 }
 
 .grid-21 {
+  position: relative;
   width: 830px;
   display: inline;
   float: left;
@@ -457,6 +478,7 @@ a:focus, a:active {
 }
 
 .grid-22 {
+  position: relative;
   width: 870px;
   display: inline;
   float: left;
@@ -473,6 +495,7 @@ a:focus, a:active {
 }
 
 .grid-23 {
+  position: relative;
   width: 910px;
   display: inline;
   float: left;
@@ -489,6 +512,7 @@ a:focus, a:active {
 }
 
 .grid-24 {
+  position: relative;
   width: 950px;
   display: inline;
   float: left;
@@ -505,6 +529,7 @@ a:focus, a:active {
 }
 
 .grid-full {
+  position: relative;
   width: 950px;
   display: inline;
   float: left;
@@ -704,6 +729,190 @@ a:focus, a:active {
   padding-right: 920px;
 }
 
+.grid-push-1 {
+  left: 40px;
+}
+
+.grid-push-2 {
+  left: 80px;
+}
+
+.grid-push-3 {
+  left: 120px;
+}
+
+.grid-push-4 {
+  left: 160px;
+}
+
+.grid-push-5 {
+  left: 200px;
+}
+
+.grid-push-6 {
+  left: 240px;
+}
+
+.grid-push-7 {
+  left: 280px;
+}
+
+.grid-push-8 {
+  left: 320px;
+}
+
+.grid-push-9 {
+  left: 360px;
+}
+
+.grid-push-10 {
+  left: 400px;
+}
+
+.grid-push-11 {
+  left: 440px;
+}
+
+.grid-push-12 {
+  left: 480px;
+}
+
+.grid-push-13 {
+  left: 520px;
+}
+
+.grid-push-14 {
+  left: 560px;
+}
+
+.grid-push-15 {
+  left: 600px;
+}
+
+.grid-push-16 {
+  left: 640px;
+}
+
+.grid-push-17 {
+  left: 680px;
+}
+
+.grid-push-18 {
+  left: 720px;
+}
+
+.grid-push-19 {
+  left: 760px;
+}
+
+.grid-push-20 {
+  left: 800px;
+}
+
+.grid-push-21 {
+  left: 840px;
+}
+
+.grid-push-22 {
+  left: 880px;
+}
+
+.grid-push-23 {
+  left: 920px;
+}
+
+.grid-pull-1 {
+  left: -20px;
+}
+
+.grid-pull-2 {
+  left: -40px;
+}
+
+.grid-pull-3 {
+  left: -60px;
+}
+
+.grid-pull-4 {
+  left: -80px;
+}
+
+.grid-pull-5 {
+  left: -100px;
+}
+
+.grid-pull-6 {
+  left: -120px;
+}
+
+.grid-pull-7 {
+  left: -140px;
+}
+
+.grid-pull-8 {
+  left: -160px;
+}
+
+.grid-pull-9 {
+  left: -180px;
+}
+
+.grid-pull-10 {
+  left: -200px;
+}
+
+.grid-pull-11 {
+  left: -220px;
+}
+
+.grid-pull-12 {
+  left: -240px;
+}
+
+.grid-pull-13 {
+  left: -260px;
+}
+
+.grid-pull-14 {
+  left: -280px;
+}
+
+.grid-pull-15 {
+  left: -300px;
+}
+
+.grid-pull-16 {
+  left: -320px;
+}
+
+.grid-pull-17 {
+  left: -340px;
+}
+
+.grid-pull-18 {
+  left: -360px;
+}
+
+.grid-pull-19 {
+  left: -380px;
+}
+
+.grid-pull-20 {
+  left: -400px;
+}
+
+.grid-pull-21 {
+  left: -420px;
+}
+
+.grid-pull-22 {
+  left: -440px;
+}
+
+.grid-pull-23 {
+  left: -460px;
+}
+
 #grid {
   display: none;
   position: fixed;
@@ -744,6 +953,9 @@ body {
 
 #main {
   text-align: center;
+}
+#main ul li {
+  margin-bottom: 15px;
 }
 
 #footer {
